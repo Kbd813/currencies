@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Currencies</title>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center">Currencies APP 💰💸</h1>
+    <form action="" id="form">
+      <div class="row">
+        <div class="col">
+          From
+          <select name="" id="from_select" class="form-select mb-4"></select>
+          <input type="number" step="any" id="from_text" class="form-control">
+        </div>
+        <div  class="col">
+          To
+          <select name="" id="to_select" class="form-select mb-4"></select>
+          <input type="number" step="any" id="to_text" class="form-control">
+        </div>
+      </div>
+      <div class="d-grid gap-2 mt-4 ">
+          <button class="btn btn-primary" id="submit" type="submit">Calculate 
+            <img src="static/loading.gif" id="loading" class="align-middle" width="20px" alt="">
+      </div>
+      
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
